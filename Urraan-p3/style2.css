@@ -1,0 +1,119 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Arial', 'Helvetica', sans-serif;
+}
+
+.brand-logo2 img{
+    height: 10%;
+    width: 15%;
+    margin-left: 2%;
+    margin-top: 4%;
+    margin-bottom: 3%;
+}
+
+.main-wrapper2{
+    background-color: #972222f3;
+    position: relative;
+}
+
+.corner-icon{
+    position: absolute;
+    bottom: -0.7%;
+    right: 0%;
+}
+
+.text-heading{
+    width: 100%;
+    font-size: 25px;
+    letter-spacing: 1px;
+    padding-bottom: 10%;
+    color: white;
+}
+
+.main-title h2{
+    font-size: 300%;
+    font-family: sans-serif;
+    margin-bottom: 4%;
+}
+
+.main-title h1{
+    color: white;
+    font-size: 590%;
+    font-family: sans-serif;
+}
+
+.flex-topimg{
+    display: flex;
+}
+
+.section-wrapper{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    text-align: center;
+    align-items: center;
+    font-family: 'Arial', 'Helvetica', sans-serif;
+}
+
+ul li{
+    list-style: none;
+}
+
+.section-wrapper img{
+    margin-top: 2%;
+}
+
+.flex-topimg img{
+    margin-top: 4%;
+}
+
+ul li img{
+    height: 70%;
+    width: 60%;
+}
+
+.images-block{
+    margin-top: 3%;
+}
+
+.section-colored{
+    background-color: #972222f3;
+    position: relative;
+    padding: 6%;
+}
+
+.bottom-corner{
+    position: absolute;
+    right: 0%;
+    bottom: -0.7%;
+}
+
+.heading-large h1{
+    font-size: 350%;
+    color: white;
+    margin-top: auto;
+    margin-left: 85px;
+}
+
+ul li p{
+    font-size: 150%;
+    font-weight: bold;
+}
+
+ul li p span{
+    color: #972222f3;
+    font-weight: bold;
+}
+
+.bottom-corner img{
+    width: 7rem;
+    height: 7rem;
+}
+
+.corner-icon img{
+    width: 7rem;
+    height: 7rem;
+    bottom: 0.3111111111rem;
+}

@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+body {
+  color: #FFFFFF;
+}
+
+.brand-logo{
+  margin-top: 2%;
+  margin-bottom: 1.5%;
+  margin-left: 2%;
+}
+.brand-logo img{
+  width: 8.5%;
+  height: 8.5%;
+}
+
+.text-block p{
+  letter-spacing: 1px;
+}
+.text-block{
+  margin-top: 44%;
+  margin-left: 22%;
+  width: 100%;
+  justify-content: center;
+  text-align:start;
+  align-items: center;
+}
+
+.section-heading{
+  margin-top:3%;
+  margin-left: 22%;
+  width: 100%;
+  justify-content: center;
+  text-align:start;
+  align-items: center;
+}
+.section-heading h3{
+  color: #000000;
+  font-size: 1.8rem;
+}
+
+.left-area h1 {
+  font-size: 5.2rem;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+.text-block p{
+  margin-top: 2%;
+  color: black;
+}
+
+.paragraph-space{
+   margin-bottom: 2%;
+}
+
+.primary-button-box{
+  display:flex;
+  justify-content: end;
+  margin-left: 10%;
+  width: 105%;
+}
+
+.primary-button-box-sm{
+  display:flex;
+  justify-content: end;
+  margin-left: 10%;
+  width: 101%;
+}
+
+.form-input input{
+  width: 40%;
+  height: 10vh;
+}
+
+.input-group{
+  margin-top: 2%;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 2px;
+}
+
+.main-wrapper {
+  position: relative;
+  margin-left: 2%;
+  background-color:  #972222f3;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom:85px;
+  gap: 40px;
+}
+
+.main-left {
+  margin-top: 5%;
+  width:50%;
+}
+
+.main-right {
+  margin-top: 5%;
+  margin-left:15%;
+  width: 50%;
+}
+.main-right input,
+.main-right textarea {
+  width: 100%;
+  margin: 0px 0;
+  padding: 10px;
+  border: 2px solid #fff;
+  background: #972222f3;
+  color: #fff;
+  outline: none;
+}
+
+::placeholder {
+  color: #eee7e7c7;
+}
+
+.right-title h2{
+  color: #000000;
+  margin: 20px 0 10px;
+  font-size: 30px;
+}
+.right-title p{
+  font-size:11.5px;
+}
+
+.awards-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 80%;
+  gap: 10px;
+}
+
+.block-align{
+  align-items: center;
+  margin-left: 6%;
+}
+
+.awards-row input[type="checkbox"] {
+  margin-top: 2%;
+  width: 100%;
+  height: 107%;
+  margin: 0;
+  accent-color: #693232;
+  color: rgb(8, 5, 5);
+  background: rgb(71, 36, 36);
+  border: 2px solid white;
+  cursor:pointer;
+}
+.awards-row label {
+  flex: 1;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.add-btn {
+  background: #fff;
+  color: rgba(0,0,0,0.4);
+  font-weight: lighter;
+  border: none;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
+}
+.add-btn:hover {
+  color: rgba(0,0,0,0.7);
+}
+
+textarea {
+  height: 80px;
+  resize: none;
+}
+
+button[type="submit"] {
+  margin: 0%;
+  padding: 12px;
+  background: #fff;
+  color: #000000;
+  font-weight: bold;
+  width: 100%;
+}
+button[type="submit"]:hover {
+  background: whitesmoke;   
+  color: #000000;
+}
+
+.awards-box{
+  margin-top: 10%;
+  display: flex;
+  margin: 0%;
+  align-items: center;
+  justify-content:start;
+  padding: 3px;
+  background-color: white;
+  border:  2px solid white;
+  margin: 40px 0 5px;
+  width: 75%;
+  overflow: hidden;
+}
+
+.plus-button {
+  border: none;
+  font-weight: lighter;
+  font-size: larger;
+  font-family:Arial, sans-serif;
+}
+
+.corner-img img{
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+}
+
+.main-left p{
+  font-size: 90%;
+  font-weight: bold;
+  margin-left: 8px;
+}
