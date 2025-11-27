@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
+  font-family: 'Open Sans', Arial, sans-serif;
 }
 body {
   color: #FFFFFF;
@@ -19,7 +19,7 @@ body {
 }
 
 .text-block p{
-  letter-spacing: 1px;
+  letter-spacing: -1px;
 }
 .text-block{
   margin-top: 44%;
@@ -28,6 +28,14 @@ body {
   justify-content: center;
   text-align:start;
   align-items: center;
+}
+ .text-block h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.9rem;
+  font-weight: 800;
+  line-height: 1.;
+  color: #ffffff;
+
 }
 
 .section-heading{
@@ -40,35 +48,41 @@ body {
 }
 .section-heading h3{
   color: #000000;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  line-height: 1.15;
 }
 
 .left-area h1 {
   font-size: 5.2rem;
-  font-weight: bold;
-  font-family: Arial, sans-serif;
+  font-weight: 800;
+  font-family: 'Montserrat', sans-serif;
 }
 .text-block p{
   margin-top: 2%;
-  color: black;
+  color: #ffffff;
+  line-height: 1.55;
+  font-weight: 400;
 }
 
 .paragraph-space{
    margin-bottom: 2%;
+   letter-spacing: -2px;
 }
 
 .primary-button-box{
   display:flex;
-  justify-content: end;
-  margin-left: 10%;
-  width: 105%;
+  justify-content: start;
+  margin-left: 88%;
+  width: 100%;
 }
 
 .primary-button-box-sm{
   display:flex;
-  justify-content: end;
-  margin-left: 10%;
-  width: 101%;
+  justify-content: start;
+  margin-left: 85%;
+  width: 100%;
 }
 
 .form-input input{
@@ -125,9 +139,14 @@ body {
   color: #000000;
   margin: 20px 0 10px;
   font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  line-height: 1.1;
 }
 .right-title p{
   font-size:11.5px;
+  color: #ffffff;
+  line-height: 1.4;
 }
 
 .awards-row {
@@ -142,24 +161,59 @@ body {
   align-items: center;
   margin-left: 6%;
 }
-
+.awards-row span{
+  display: flex; 
+  -ms-flex-align: center; 
+  margin-right: 3px;
+   margin-top: 3px;
+   border-radius: 50%;
+}
 .awards-row input[type="checkbox"] {
-  margin-top: 2%;
-  width: 100%;
-  height: 107%;
-  margin: 0;
-  accent-color: #693232;
-  color: rgb(8, 5, 5);
-  background: rgb(71, 36, 36);
-  border: 2px solid white;
+
+  margin: 9%;
+  margin-top: -9%;
+  margin-left: 8%;
+  border: 10% solid white;
   cursor:pointer;
 }
+.red-check {
+    width: 2px;           /* checkbox ka size text ke size ke barabar */
+    height: 2px;
+    accent-color: #b50101;  
+    border-radius: 10%;  /* modern browsers ke liye */
+    vertical-align: middle; /* text ke sath align karne ke liye */
+    cursor: pointer;
+}
+
+.red-check[type="checkbox"] {
+    appearance: none;
+    background-color:#b50101;
+    border: none;
+    display: flex;
+    padding: 7px;
+    position: relative;
+}
+
+.red-check:checked::after {
+    content: "✔";
+    color: white;
+    font-size: 1em;     /* checkmark ka size text ke proportion me */
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* perfectly center */
+}
+
 .awards-row label {
   flex: 1;
   font-size: 14px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  color: #ffffff;
 }
 
 .add-btn {
@@ -215,7 +269,7 @@ button[type="submit"]:hover {
   border: none;
   font-weight: lighter;
   font-size: larger;
-  font-family:Arial, sans-serif;
+  font-family:'Montserrat', sans-serif;
 }
 
 .corner-img img{
@@ -228,6 +282,14 @@ button[type="submit"]:hover {
 
 .main-left p{
   font-size: 90%;
-  font-weight: bold;
+  font-weight: 400;
   margin-left: 8px;
+  color: #ffffff;
+  line-height: 1.55;
+}
+
+.main-right input,
+.main-right textarea{
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 14px;
 }
