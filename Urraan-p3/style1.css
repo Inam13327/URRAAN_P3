@@ -177,11 +177,11 @@ body {
   cursor:pointer;
 }
 .red-check {
-    width: 2px;           /* checkbox ka size text ke size ke barabar */
+    width: 2px;         
     height: 2px;
     accent-color: #b50101;  
-    border-radius: 10%;  /* modern browsers ke liye */
-    vertical-align: middle; /* text ke sath align karne ke liye */
+    border-radius: 10%;  
+    vertical-align: middle; 
     cursor: pointer;
 }
 
@@ -197,11 +197,11 @@ body {
 .red-check:checked::after {
     content: "✔";
     color: white;
-    font-size: 1em;     /* checkmark ka size text ke proportion me */
+    font-size: 1em;     
     position: absolute;
     top: 40%;
     left: 50%;
-    transform: translate(-50%, -50%); /* perfectly center */
+    transform: translate(-50%, -50%); 
 }
 
 .awards-row label {

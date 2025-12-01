@@ -1,7 +1,9 @@
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 *{
     margin: 0%;
     padding: 0%;
-    font-family: 'Arial', 'Helvetica', sans-serif;
+    font-family: 'Open Sans', 'Arial', 'Helvetica', sans-serif;
 }
 
 .brand-logo2 img{
@@ -21,35 +23,53 @@
     position: absolute;
     bottom: -0.7%;
     right: 0%;
+    
 }
 
 .text-heading{
     width: 100%;
-    font-size: 25px;
-    letter-spacing: 1px;
+    font-family: 'Open Sans', 'Arial', 'Helvetica', sans-serif;
     padding-bottom: 10%;
     color: white;
 }
 
+.text-heading p{
+    font-family: 'Open Sans', 'Arial', 'Helvetica', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    line-height: 1.7;
+    color: #FFFFFF;
+}
+
 .main-title h2{
-    font-size: 300%;
-    font-family: sans-serif;
+    font-size: 2.9rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
     margin-bottom: 4%;
 }
 
 .main-title h1{
     color: white;
-    font-size: 590%;
-    font-family: sans-serif;
+    font-size: 6.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
 }
 
 .flex-topimg{
     display: flex;
+    margin-left: 50px;
+}
+
+.flex-topimg h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    letter-spacing: 0.5px;
 }
 
 .section-wrapper{
     margin-top: 5%;
-    margin-left: 10%;
+    margin-left: 13%;
     margin-right: 10%;
     margin-bottom: 10%;
     text-align: center;
@@ -76,6 +96,7 @@ ul li img{
 
 .images-block{
     margin-top: 3%;
+    
 }
 
 .section-colored{
@@ -91,20 +112,30 @@ ul li img{
 }
 
 .heading-large h1{
-    font-size: 350%;
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
     color: white;
     margin-top: auto;
-    margin-left: 85px;
+    margin-left: 11%
 }
 
 ul li p{
-    font-size: 150%;
-    font-weight: bold;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 900;
+    line-height: 1.15;
+    color: #000000;
 }
 
 ul li p span{
+font-family: Arial, Helvetica, sans-serif;
     color: #972222f3;
-    font-weight: bold;
+    font-weight: 850;
+    font-size: 1.2rem;
+    
+    word-spacing: 0.6px;
+ 
 }
 
 .bottom-corner img{
